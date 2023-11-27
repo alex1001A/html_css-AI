@@ -1,3 +1,16 @@
+p {
+    margin: 0;
+}
+
+.about-me__container {
+    font-size: 18px;
+    width: 480px;
+    text-align: center;
+    position: relative;
+    left: 50%;
+    transform: translate(-50%, 0%);
+}
+
 .skills__container {
     text-align: center;
 }
@@ -6,4 +19,48 @@
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.portfolio__container {
+    text-align: center;
+}
+
+.portfolio-text__container {
+    position: relative;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 200px;
+    margin-top: 55px;
+}
+
+.reebok-portfolio-project__container {
+
+    margin-top: 70px;
+}
+
+.braun-portfolio-project__container {
+
+    margin-top: 70px;
+}
+
+footer {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer {
+    width: 970px;
+    height: 400px;
+    background-color: aqua;
+}
+
+.minisubtitle {
+    text-align: center;
+    position: relative;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 200px;
+    bottom: 90%;
 }
