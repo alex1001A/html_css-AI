@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="/Lesson_6_HTML form/homework/style/style.css">
+        <title>Document</title>
+    </head>
+    <body>
+        <div class="wrapper">
+            <section class="registration">
+                <div class="container registration__container">
+                    <fieldset class="registration" style="width: 30%;">
+                        <legend style="text-transform: uppercase;"><b>Registration form</b></legend>
+                            <form class="form">
+                                <div class="form__container">
+                                    <div class="form__container_name">
+                                        <label for="name">Повне ім'я</label>
+                                        <input type="text" id="name">
+                                    </div> <br>
+                                    <div class="form__container_email">
+                                        <label for="email">Email</label>
+                                        <input type="text" id="email" autocomplete="mail">
+                                    </div> <br>
+                                    <div class="form__container_password">
+                                        <label for="pwd_1">Пароль</label>
+                                        <input type="password" id="pwd_1">
+                                    </div> <br>
+                                    <div class="form__container_password">
+                                        <label for="pwd_2">Пароль ще раз</label>
+                                        <input type="password" id="pwd_2">
+                                    </div> <br>
+                                    <div class="form__container_radio_gender">
+                                        <label for="m">Стать:</label>
+                                        <input type="radio" id="m" name="gen">чоловіча
+                                        <input type="radio" id="W" name="gen">жіноча
+                                    </div> <br>
+                                    <div class="form__container_age">
+                                        <label for="age">Вік</label>
+                                        <input type="number" max="100" min="18" id="age">
+                                    </div> <br>
+                                    <div class="form__container_course">
+                                        <label for="course">Курс</label>
+                                        <select name="course_name" id="">
+                                            <option value="1">-=Оберіть курс=-</option>
+                                            <option value="1">1</option>
+                                            <option value="2">2</option>
+                                            <option value="3">3</option>
+                                            <option value="4">4</option>
+                                            <option value="5">5</option>
+                                        </select>
+                                    </div> <br>
+                                    <div class="form__container_adress">
+                                        <label for="adress">Повна адреса</label>
+                                        <textarea name="adress" id="adress" cols="30" rows="4" placeholder="Країна, регіон, місто/селище, вулиця"></textarea>
+                                    </div> <br>
+                                    <div class="form__container_agree_terms" style="font-size: 11px;">
+                                        <input id="agree" type="checkbox"> 
+                                        <label for="agree" style="text-transform:lowercase;">Я погоджуюсь з обробкою персональних даних</label>
+                                    </div> <br>
+                                    <input value="Очистити форму" type="reset">
+                                    <input value="Зареєструватися" type="submit">
+                                </div>
+                            </form>
+                    </fieldset>
+                </div>
+            </section>
+        </div>
+    </body>
+</html>
