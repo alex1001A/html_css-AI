@@ -1,0 +1,70 @@
+/* Global style */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+button {
+    background-color: transparent;
+    border: none;
+}
+
+img {
+    display: block;
+}
+
+.container {
+    max-width: 970px;
+    margin: 0 auto; 
+}
+
+h2 {
+    color: black;
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 34px;
+    font-weight: 700;
+    line-height: normal;
+}
+
+body {
+    color: black;
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: normal;
+}
+
+a {
+    color: #828282;
+    text-decoration: none;
+}
+
+/* Global style end*/
+
+/* Header */
+
+
+
+/* Header End*/
+
+.title {
+    color: black;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: normal;
+    text-align: left;
+}
+
+/* Section hero */
+.hero__img {
+    width: 100%;
+}
+
+.about__container {
+    max-width: 480px;
+    margin: 0 auto;
+}
