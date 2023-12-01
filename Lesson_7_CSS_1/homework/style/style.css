@@ -137,7 +137,7 @@ a {
 section.about{
     width: 100%;
     height: 500px;
-    background: #F6F6F6;
+    background: #e7f6f8;
 }
 
 .about__container{
@@ -196,6 +196,10 @@ section.about{
     flex-direction: column;
 }
 
+.skills__icon:hover{
+    box-shadow: 5px 5px 15px black;
+}
+
 /* Skills */
 
 /* Portfolio */
@@ -203,15 +207,103 @@ section.about{
 section.portfolio{
     width: 100%;
     height: 2268px;
-    background: #F6F6F6;
+    background: #e7f6f8;
 }
 
 .portfolio__container{
     padding: 100px 0px;
+    text-align: center;
 }
 
 .portfolio__subtitle{
     margin-bottom: 50px;
 }
 
+.pages__img_fashion-store{
+    margin-bottom: 40px;
+}
+
+.pages__text_fashion-store{
+    width: 200px;
+    margin: 0 auto;
+    margin-bottom: 70px;
+}
+
+.pages__img_reebok-store{
+    margin-bottom: 40px;
+}
+
+.pages__text_reebok-store{
+    width: 200px;
+    margin: 0 auto;
+    margin-bottom: 70px;
+}
+
+.pages__img_braun-store{
+    margin-bottom: 40px;
+}
+
+.pages__text_braun-store{
+    width: 260px;
+    margin: 0 auto;
+}
+
 /* Portfolio END*/
+
+
+.footer__container{
+    padding: 100px 0px;
+}
+
+.footer__subtitle{
+    margin-bottom: 20px;
+}
+
+.text__footer{
+    width: 280px;
+    margin: 0 auto;
+    margin-bottom: 60px;
+}
+
+.button {
+    width: 180px;
+    height: 44px;
+    border-radius: 22px;
+    background-color:  #070707;
+    margin-bottom: 30px;
+}
+
+.button:hover{
+    background-color:  #FFF;
+    border: 2px solid black;
+    transition: 0.2s;
+}
+
+.button_text {
+    color: #FFF;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.button_text:hover{
+    color:  black;
+    transition: 0.2s;
+}
+
+.social-list__container{
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 310px;
+    height: 40px;
+    margin-bottom: 60px;
+}
+
+.subtext__footer{
+    margin: 0 auto;
+    color: #828282;
+    font-size: 14px;
+    width: 200px;
+    height: 60px;
+}
