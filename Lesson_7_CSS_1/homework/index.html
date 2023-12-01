@@ -6,6 +6,8 @@
     <link rel="stylesheet" href="./style/style.css">
     <title>Denis Novik</title>
     <link rel="shortcut icon" href="">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200;400;700&family=Open+Sans:wght@400;700&family=Playfair+Display&display=swap" rel="stylesheet">
 </head>
 <body>
     <div class="wrapper">
@@ -13,11 +15,11 @@
         <header class="header">
             <div class="container header__container">
                 <nav class="nav">
-                    <a href="">Home</a>
-                    <a href="">About me</a>
-                    <a href="">Skills</a>
-                    <a href="">Portfolio</a>
-                    <a href="">Contacts</a>
+                    <a class="nav__link nav__link_active" href="">Home</a>
+                    <a class="nav__link" href="">About me</a>
+                    <a class="nav__link" href="">Skills</a>
+                    <a class="nav__link" href="">Portfolio</a>
+                    <a class="nav__link" href="">Contacts</a>
                 </nav>
             </div>
         </header>
@@ -26,8 +28,13 @@
         <!-- Hero -->
         <section class="hero">
             <div class="container hero__container">
-                <h1 class="page-name">Denis Novik</h1>
-                <img src="" alt="Photo of Denis Novik">
+                <div class="hero-name">
+                    <h1 class="page-name">Denis Novik</h1>
+                </div>
+                <div class="hero-img">
+                    <img class="page-img" src="./img/Hero/photoDenis-Novik-photo.jpg" alt="Photo of Denis Novik">
+                </div>
+                
             </div>
         </section>
         <!-- Hero END--> 
@@ -35,10 +42,18 @@
         <!-- About -->
         <section class="about">
             <div class="container about__container">
-                <h2 class="subtitle about__subtitle"></h2>
-                <p class="text about__text"></p>
-                <p class="text about__text"></p>
-                <p class="text about__text"></p>
+                <div class="subtitle">
+                    <h2 class="about__subtitle">About me</h2>
+                </div>
+                <div class="about__text">
+                    <p class="text about__text_inner">Hi, I'm Denis – UX/UI designer from Minsk.
+                        I'm interested in design and everything connected with it.</p>
+                    <p class="text about__text_inner">I'm studying at courses "Web and mobile design 
+                        interfaces" in IT-Academy.</p>
+                    <p class="text about__text_inner">Ready to implement excellent projects
+                        with wonderful people.</p>
+                </div>
+                
             </div>
         </section>
         <!-- About END-->
@@ -46,32 +61,30 @@
         <!-- Skills -->
         <section class="skills">
             <div class="container skills__container">
-                <div class="skills__title">
-                    <h2 class="subtitle skills__subtitle"></h2>
-                    <p class="text skills__text"></p>
+                <div class="subtitle">
+                    <h2 class="subtitle skills__subtitle">Skills</h2>
                 </div>
+                    <p class="text skills__text">I work in such programs as</p>
                 <div class="container skills-list__container">
                     <div class="skills-list__item">
-                        <img class="skills__icon" src="" alt="image" width="80">
-                        <p class="text skills-list__text"></p>
-                        <img class="kills__icon_stars" src="" alt="" width="170">
+                        <img class="skills__icon" src="./img/Skills/Ps.svg" alt="PS" width="80">
+                        <p class="text skills-list__text">Adobe Photoshop</p>
+                        <img class="kills__icon_stars" src="./img/Skills/rating_1.svg" alt="" width="170">
                     </div>
                     <div class="skills-list__item">
-                        <img class="skills__icon" src="" alt="image" width="80">
-                        <p class="text skills-list__text"></p>
-                        <img class="kills__icon_stars" src="" alt="" width="170">
+                        <img class="skills__icon" src="./img/Skills/Ai.svg" alt="PS" width="80">
+                        <p class="text skills-list__text">Adobe Illustrator</p>
+                        <img class="kills__icon_stars" src="./img/Skills/rating_2.svg" alt="" width="170">
                     </div>
                     <div class="skills-list__item">
-                        <img class="skills__icon" src="" alt="image" width="80">
-                        <p class="text skills-list__text"></p>
-                        <img class="kills__icon_stars" src="" alt="" width="170">
+                        <img class="skills__icon" src="./img/Skills/Ae.svg" alt="PS" width="80">
+                        <p class="text skills-list__text">Adobe After Effects</p>
+                        <img class="kills__icon_stars" src="./img/Skills/rating_3.svg" alt="" width="170">
                     </div>
-                    <!-- протестить как работает если назначить два класса и 
-                    если сделать модификатор к каждому айтему -->
                     <div class="skills-list__item">
-                        <img class="skills__icon" src="" alt="image" width="80">
-                        <p class="text skills-list__text"></p>
-                        <img class="kills__icon_stars" src="" alt="" width="170">
+                        <img class="skills__icon" src="./img/Skills/Figma.svg" alt="PS" width="53.3">
+                        <p class="text skills-list__text">Figma</p>
+                        <img class="kills__icon_stars" src="./img/Skills/rating_4.svg" alt="" width="170">
                     </div>
                 </div>
             </div>
@@ -81,7 +94,7 @@
         <!-- Portfolio -->
         <section class="portfolio">
             <div class="container portfolio__container">
-                <h2></h2>
+                <h2>Portfolio</h2>
                 <div class="pages">
                     <div class="container fashion-store__container">
                         <div class="pages__img_fashion-store">
