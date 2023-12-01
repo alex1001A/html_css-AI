@@ -250,7 +250,7 @@ section.portfolio{
 
 /* Portfolio END*/
 
-
+/* Footer */
 .footer__container{
     padding: 100px 0px;
 }
@@ -307,3 +307,5 @@ section.portfolio{
     width: 200px;
     height: 60px;
 }
+
+/* Footer END*/
