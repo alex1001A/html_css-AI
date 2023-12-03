@@ -1,0 +1,28 @@
+.fild {
+    width: 300px;
+}
+
+.fild__text {
+    max-height: 0;
+    overflow: hidden;
+    background-color: blue;
+    color: #fff;
+
+    transition: max-height 1s;
+}
+
+.fild__input {
+    display: none;
+}
+
+.fild__input:checked+.fild__text {
+    max-height: 1500px;
+}
+
+.tab {
+    background-color: blue;
+    color: #fff;
+    padding: 10px;
+    border-radius: 10px;
+    cursor: pointer;
+}
