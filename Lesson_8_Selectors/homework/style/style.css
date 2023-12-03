@@ -1,0 +1,25 @@
+.tab__input {
+    display: none;
+}
+
+.tab__show{
+    background-color: blue;
+    color: #fff;
+    padding: 10px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.tab__content {
+    max-height: 0;
+    overflow: hidden;
+    background-color: blue;
+    color: #fff;
+    transition: max-height 0.5s;
+}
+
+
+.tab__input:checked+.tab__content {
+    max-height: 1500px;
+}
+
