@@ -1,0 +1,46 @@
+/* Global styles */
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.wrapper{
+    max-width: 1440px;
+}
+
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+
+
+body{
+    font: var();
+}
+
+/* Global styles END*/
+
+/* Variable */
+
+
+
+/* Variable END*/
+
+
+
+/* Header */
+
+
+
+/* Header END*/
+
+
+
+/* Hero */
+
+
+
+/* Hero END*/
