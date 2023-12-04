@@ -103,14 +103,22 @@ body{
     background-color: rgba(255, 137, 132, 1);
 }
 
-.product-list__list-item:checked{
-    background-color: rgba(255, 137, 132, 1);
-}
+
 
 .product-list__input {
     margin: 16px;
     transform: scale(2);
 }
+
+.product-list__input:checked+.label{
+    text-decoration: line-through;
+    color: rgba(155, 150, 172, 1);
+  }
+
+  .product-list__input:checked+.label+.product-list__desription_little{
+    text-decoration: line-through;
+    color: rgba(155, 150, 172, 1);
+  }
 
 /* AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA END*/
 
