@@ -1,0 +1,271 @@
+/* Global styles */
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: var(--main-font-family);
+    color: var(--main-text-color);
+}
+
+ul,
+ol {
+  padding: 0;
+  margin: 0;
+}
+
+li {
+    padding: 0;
+    margin: 0;
+  }
+
+.container {
+    max-width: 1170px;
+    margin: 0 auto;
+}
+
+.main {
+    height: 100vh;
+    border: 25px solid var(--main-border-color);
+    background-color: var(--main-bg-color);
+}
+
+ul {
+    list-style-type: none;
+}
+
+/* Global styles END*/
+
+/* Fonts/Colors */
+
+:root {
+
+    --title-font: 400 21px/24px var(--main-font-family);
+    --city-font: 400 22px/24px var(--main-font-family);
+    --text-font: 400 16px/24px var(--main-font-family);
+
+    --main-font-family: 'Lucida Sans', sans-serif;
+
+    --main-bg-color: #39C;
+    --main-border-color: #2B81AC;
+    --main-text-color: #FFF;
+    --main-icon-color: #FFF;
+
+    --lisbon-color: #5fbdec;
+    --paris-color: #3CC;
+    --belgrade-color: #969;
+    --venice-color: #C24747;
+    --tel-avive-color: #E2674A;
+    --cair-color: #FC6;
+    --new-york-color: #9C9;
+    --new-delhi-color: #699;
+    --san-francisco-color: #C69;
+    --tokyo-color: #396;
+    --sydney-color: #669;
+}
+
+/* Fonts/Colors END*/
+
+.container {
+    overflow-y: hidden;
+}
+
+.title__container {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+
+.title {
+    
+    margin: 38px 0;
+    font: var(--title-font);
+}
+
+.weather-table {
+    max-width: 1170px;
+    height: 592px;
+    background-color: grey;
+    border: 2px solid var(--main-text-color);
+    margin-bottom: 35px;
+}
+
+.weather-row {
+    display: flex;
+    flex-direction: row;
+    height: 25%;
+}
+
+.weather__item {
+    border: 2px solid var(--main-text-color);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font: var(--city-font);
+    cursor: pointer;
+}
+
+.weather__item:hover {
+    opacity: 0.7;
+    border: 2px solid var(--main-border-color);
+}
+
+.description {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 4px;
+}
+
+.degree__container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 11px;
+    opacity: 0.6;
+}
+
+.weather__item--lisbon {
+    width: 50%;
+    background-color: var(--lisbon-color);
+}
+
+.weather__item--paris {
+    width: 25%;
+    background-color: var(--paris-color);
+}
+
+.weather__item--belgrade {
+    width: 25%;
+    background-color: var(--belgrade-color);
+}
+
+.weather__item--venice {
+    width: 25%;
+    background-color: var(--venice-color);
+}
+
+.weather__item--tel-avive {
+    width: 25%;
+    background-color: var(--tel-avive-color);
+}
+
+.weather__item--cair {
+    width: 25%;
+    background-color: var(--cair-color);
+}
+
+.weather__item--new-york {
+    width: 25%;
+    background-color: var(--new-york-color);
+}
+
+.weather__item--new-delhi {
+    width: 25%;
+    background-color: var(--new-delhi-color);
+}
+
+.weather__item--san-francisco {
+    width: 50%;
+    background-color: var(--san-francisco-color);
+}
+
+.weather__item--tokyo {
+    width: 25%;
+    background-color: var(--tokyo-color);
+}
+
+.weather__item--sydney {
+    width: 100%;
+    background-color: var(--sydney-color);
+}
+
+/* Main
+
+.title {
+    margin: 38px 0;
+    font: var(--title-font);
+}
+
+.degree__container {
+    display: flex;
+    flex-direction: row;
+
+}
+
+.weather-table__container {
+    max-width: 1170px;
+    height: 592px;
+    background-color: grey;
+}
+
+.weather-table__row {
+    height: 25%;
+    background-color: #fff;
+}
+
+.weather-table__row--first {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+.list-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100%;
+    gap: 4px;
+}
+
+#lisbon {
+    width: 50%;
+    border: 2px solid var(--main-text-color);
+    background-color: var(--lisbon-color);
+}
+
+#paris {
+    width: 25%;
+    border: 2px solid var(--main-text-color);
+    background-color: var(--paris-color);
+}
+
+#belgrade {
+    width: 25%;
+    border: 2px solid var(--main-text-color);
+    background-color: var(--belgrade-color); 
+}
+
+
+ */
+
+
+/* .weather-table__row {
+    height: 25%;
+    border: 2px solid var(--main-text-color);
+}
+
+.weather-table__row--first {
+    height: 100%;
+    display: flex;
+}
+
+.weather-table__row--first:nth-child(1) {
+    width: 50%;
+    border: 2px solid var(--main-text-color);
+    background-color: var(--lisbon-color);
+}
+
+.weather-table__row--first:nth-child(2) {
+    width: 50%;
+    border: 2px solid var(--main-text-color);
+    background-color: var(--paris-color);
+} */
