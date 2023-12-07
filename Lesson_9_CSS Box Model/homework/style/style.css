@@ -47,10 +47,7 @@ a {
     --btn-orange-color: #F90;  
 }
 
-
 /* Variable END*/
-
-
 
 /* Header */
 
@@ -70,8 +67,6 @@ a {
     align-items: center;
     justify-content: space-between;
 }
-
-
 
 /* Header END*/
 
@@ -172,6 +167,5 @@ button {
     border: 1px solid var(--text-black-color);
     color: var(--text-black-color);
 }
-
 
 /* Hero END*/
