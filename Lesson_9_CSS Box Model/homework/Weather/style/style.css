@@ -28,7 +28,7 @@ li {
 }
 
 .main {
-    height: 100vh;
+    height: 100%; 
     border: 25px solid var(--main-border-color);
     background-color: var(--main-bg-color);
 }
@@ -68,10 +68,6 @@ ul {
 }
 
 /* Fonts/Colors END*/
-
-.container {
-    overflow-y: hidden;
-}
 
 .title__container {
     display: flex;
@@ -183,6 +179,10 @@ ul {
 .weather__item--sydney {
     width: 100%;
     background-color: var(--sydney-color);
+}
+
+.text {
+    margin-bottom: 120px;
 }
 
 /* Main
