@@ -1,0 +1,32 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 500px;
+    height: 500px;
+    background-color: grey;
+    padding: 20px;
+}
+
+.box {
+    height: 33.3%;
+    background-color: red;
+}
+
+.box:nth-child(2) {
+    background-color: blue;
+}
+
+.box:nth-child(3) {
+    background-color: greenyellow;
+}
+
+.container--redbox {
+    
+}
