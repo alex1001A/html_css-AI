@@ -1,0 +1,12 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.wrapper {
+    margin: 0 auto;
+    display: flex;
+    max-width: 1200px;
+    background-color: yellow;
+}
