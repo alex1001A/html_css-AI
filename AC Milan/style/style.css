@@ -31,6 +31,7 @@ body {
 
 .wrapper {
     max-width: 1920px;
+    margin: 0 auto;
 }
 
 .container {
@@ -143,6 +144,7 @@ body {
     flex-direction: row;
     align-items: center;
     padding: 38px 0 48px 0;
+    flex-wrap: wrap;
 }
 
 .safety-box {
