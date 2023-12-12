@@ -15,7 +15,6 @@
     --steps-description-item-font: 700 22px/normal var(--main-font);
     --steps-text-item-font: 400 16px/24px var(--main-font);
 
-
     /* Variable colors */
     --white-color: #fff;
     --dark-blue-color: #020046;
@@ -62,6 +61,102 @@ body {
     background-color: var(--white-color);
     color: var(--dark-blue-color);
 }
+
+.text {
+    font: var(--text-font);
+}
+
+/* Header */
+
+.header__container {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 50px;
+    
+}
+
+.header__container a {
+    text-transform: uppercase;
+    text-decoration: none;
+    color: var(--green-color);
+    letter-spacing: 1.4px;
+    transition: all 0.5s;
+}
+
+.header__login-button {
+    padding-right: 7px;
+}
+
+.header__login-button:hover {
+    color: var(--white-color);
+    transform: scale(1.1);
+}
+
+/* Header END*/
+
+/* Hero */
+
+.hero__container {
+    display: flex;
+    flex-direction: row;
+    background: url('../img/top-img-players.jpg');
+    background-position: -425px ;
+    min-height: 630px;
+    align-items: center;
+}
+
+.hero-box {
+    display: flex;
+    flex-direction: column;
+    max-width: 360px;
+    gap: 30px;
+}
+
+/* Hero END*/
+
+/* bitcoin */
+
+.bitcoin__container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-end;
+    background: url('../img/second-bitcoin.png') no-repeat;
+    background-position: -230px ;
+    min-height: 540px;
+}
+
+.bitcoin-box {
+    display: flex;
+    flex-direction: column;
+    max-width: 560px;
+    gap: 30px;
+}
+
+/* Champion END*/
+
+/* Champion */
+
+.champion__container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background: url('../img/hand-cup-2.png') no-repeat;
+    background-position: 430px ;
+    
+    min-height: 500px;
+}
+
+.champion-box {
+    display: flex;
+    flex-direction: column;
+    max-width: 460px;
+    gap: 30px;
+}
+
+/* Champion END*/
 
 /* Benefits */
 
@@ -167,11 +262,18 @@ body {
 
 /* Join */
 
+.join {
+    background: url('../img/Oval.png') no-repeat;
+    background-position: center 290px;
+}
+
 .join__container {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: space-between;
+    background: url('../img/Path\ 3.png') no-repeat;
+    background-position: center 160px;
 }
 
 .join__sub-title {
