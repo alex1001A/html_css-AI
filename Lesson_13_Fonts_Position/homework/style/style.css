@@ -91,7 +91,7 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    border: 1px solid var(--button-color);
+    border: 2px solid var(--button-color);
     border-radius: 10px;
     padding: 10px;
     max-width: 300px;
@@ -146,6 +146,12 @@ body {
 
 .hero__item-img {
     position: absolute;
+    transition: all 1s;
+}
+
+.hero__item-img:hover {
+    transform: scale(1.2);
+    transform: translate(50px, 120px);
 }
 
 .doodle-1 {
@@ -154,15 +160,23 @@ body {
     bottom: 0;
 }
 
+.doodle-1:hover {
+    transform: translate(-70px, -150px);
+}
+
+.doodle-2:hover {
+    transform: translate(-70px, 150px);
+}
+
 .doodle-2 {
     position: absolute;
-    left: 30%;
+    left: 45%;
     top: 2%;
 }
 
 .doodle-3 {
     position: absolute;
-    left: 5%;
+    left: 15%;
     top: 10%;
 }
 
@@ -171,10 +185,15 @@ body {
     width: 600px;
     height: 600px;
     right: 8%;
-    bottom: 0;
+    top: 20%;
     transform: rotate(23deg);
-    order: -1;
+    transition: all 2S;
 }
+
+.hero__item-earth:hover {
+    transform: rotateZ(120deg);
+    transform: scale(0.8);
+} 
 
 .content-box {
     display: flex;
