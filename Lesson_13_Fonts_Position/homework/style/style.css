@@ -90,12 +90,10 @@ body {
 .search-form {
     display: flex;
     justify-content: space-between;
-    align-items: center;
     border: 2px solid var(--button-color);
     border-radius: 10px;
     padding: 10px;
     max-width: 300px;
-    gap: 10px;
 }
 
 .search-form__text {
@@ -199,6 +197,7 @@ body {
     display: flex;
     flex-direction: column;
     max-width: 600px;
+    cursor: url('./cursor.svg');
 }
 
 .hero__title {
