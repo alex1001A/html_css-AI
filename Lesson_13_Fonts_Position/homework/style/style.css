@@ -1,0 +1,91 @@
+a {
+    text-decoration: none;
+}
+
+input {
+    border: none;
+    font: inherit;
+}
+
+/* Font styles */
+
+:root {
+    --main-font-family: 'Barlow', sans-serif;
+    --header-font-family: 'Silkscreen', sans-serif;
+    --title-font-family: 'Playfair Display', serif;
+
+    --main-text-font: 400 20px/normal var(--main-font-family);
+    --nav-font: 400 18px/normal var(--header-font-family);
+    --title-font: 700 36px/normal var(--title-font-family);
+    --button-font: 700 16px/normal var(--main-font-family);
+
+    --main-black-color: #000;
+    --main-text-color: #fff;
+    --button-color: #7F00FF;
+}
+
+/* Font styles END*/
+
+/* General styles */
+
+body {
+    font: var(--main-text-font);
+    color: var(--main-text-color);
+}
+
+.wrapper {
+    overflow: hidden;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* General styles END*/
+
+/* Header */
+
+.nav {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    padding: 20px 0;
+    align-items: center;
+}
+
+.menu {
+    font: var(--nav-font);
+    display: flex;
+    gap: 15px;
+}
+
+.menu__link {
+    color: var(--main-black-color);
+}
+
+.nav__logo {
+    justify-self: center;
+}
+
+.nav__search {
+}
+
+.nav__search-input {
+    max-width: 200px;
+    display: block;
+    padding: 5px;
+    border: 1px dotted var(--button-color);
+    border-radius: 10px;
+    position: relative;
+}
+
+.nav__search-lens {
+    position: absolute;
+    display: block;
+    width: 25px;
+    height:  25px;
+    left: 0;
+    top: 0;
+}
+
+/* Header END*/
