@@ -13,3 +13,120 @@ ul,
 ol {
     list-style: none;
 }
+
+/* Font styles */
+
+:root {
+    --pt-sans-font-family: 'PT Sans', sans-serif;
+    --farro-font-family: 'Farro', sans-serif;
+    --francois-one-font-family: 'Francois One', sans-serif;
+    --staatliches-font-family: 'Staatliches', sans-serif;
+    --tourney-font-family: 'Tourney', sans-serif;
+
+    --text-font: 400 28px/48px var(--pt-sans-font-family);
+    --title-font: 400 36px/48px var(--francois-one-font-family);
+    --text-bold-font: 700 28px/48px var(--pt-sans-font-family);
+    --chapter-light-font: 300 15px/normal var(--farro-font-family);
+    --header-title-font: 400 22px/normal var(--staatliches-font-family);
+    --text-italic-font: 400 28px/48px var(--pt-sans-font-family);
+    --eng-font: 600 22px/18px var(--tourney-font-family);
+
+    --black-color: #000000;
+    --white-color: #DADADA;
+    --text-bg-light-grey-color: lightgrey;
+}
+
+/* Font styles END*/
+
+/* General styles */
+
+body {
+    font: var(--text-font);
+    color: var(--black-color);
+}
+
+.header {
+    width: 100%;
+    padding: 13px 120px;
+    margin-bottom: 70px;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.highlight {
+    text-decoration: underline;
+}
+
+.block__title {
+    text-transform: uppercase;
+}
+
+.block {
+    margin-bottom: 70px;
+}
+
+.grey-bg {
+    background-color: var(--text-bg-light-grey-color);
+}
+
+/* General styles END*/
+
+/* Header */
+
+.header__container {
+    display: grid;
+    grid-template-columns: 75px 280px 1fr;
+    align-items: center;
+}
+
+.eng-text {
+    font: var(--eng-font);
+    letter-spacing: 0.88px;
+}
+
+.doc__title {
+    display: flex;
+
+}
+
+.header__title {
+    font: var(--header-title-font);
+    letter-spacing: 0.66px;
+}
+
+.doc::after {
+    content: '/';
+    padding: 0 10px;
+}
+
+.logo {
+    justify-self: end;
+    align-self: center;
+}
+
+/* Header END*/
+
+/* Hero */
+
+.block__title {
+    font: var(--title-font);
+    letter-spacing: 1.44px;
+}
+
+.box-title {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 40px;
+}
+
+.chapter {
+    font: var(--chapter-light-font);
+    letter-spacing: 1.2px;
+    align-self: flex-start;
+}
+
+/* Hero END*/
