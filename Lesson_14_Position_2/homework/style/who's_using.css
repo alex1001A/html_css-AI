@@ -1,0 +1,180 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+ul,
+ol {
+    list-style: none;
+}
+
+/* Font styles */
+
+:root {
+   
+    --staatliches-font-family: 'Staatliches', sans-serif;
+    --tourney-font-family: 'Tourney', sans-serif;
+
+    --title-font: 400 36px/48px var(--francois-one-font-family);
+    --header-title-font: 400 22px/normal var(--staatliches-font-family);
+    --eng-font: 600 22px/18px var(--tourney-font-family);
+
+    --black-color: black;
+    --white-color: white;
+    --card-front-bg-grey-color: #E6E6E6;
+
+}
+
+/* General styles */
+
+
+body {
+    font: var(--header-title-font);
+    color: var(--black-color);
+}
+
+.header {
+    position: sticky;
+    top: 0.1px;
+    width: 100%;
+    padding: 13px 120px;
+    margin-bottom: 70px;
+    background-color: var(--white-bg-color);
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* General styles END*/
+
+/* Header */
+
+.header__container {
+    display: grid;
+    grid-template-columns: 75px 280px 1fr;
+    align-items: center;
+}
+
+.eng-text {
+    font: var(--eng-font);
+    letter-spacing: 0.88px;
+}
+
+.doc__title {
+    display: flex;
+
+}
+
+.header__title {
+    font: var(--header-title-font);
+    letter-spacing: 0.66px;
+}
+
+.doc::after {
+    content: '/';
+    padding: 0 10px;
+}
+
+.logo {
+    justify-self: end;
+    align-self: center;
+}
+
+/* Header END*/
+
+.hero {
+
+}
+
+.hero__title--container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 40px;
+}
+
+.hero__title::before {
+    content: '';
+    display: inline-block;
+    height: 8px;
+    width: 100px;
+    background-color: var(--black-color);
+    margin: 8px 20px 8px 0;
+}
+
+.cards {
+    padding: 20px 15px;
+    display: grid;
+    grid-template-columns: repeat(4, 270px);
+    grid-template-rows: repeat(2, 180px);
+    gap: 30px;
+}
+
+/* Card */
+
+/* The flip card container - set the width and height to whatever you want. We have added the border property to demonstrate that the flip itself goes out of the box on hover (remove perspective if you don't want the 3D effect */
+.flip-card {
+    background-color: transparent;
+    width: 270px;
+    height: 180px;
+    perspective: 1000px;
+}
+
+/* This container is needed to position the front and back side */
+.flip-card-inner {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    transition: transform 0.8s;
+    transform-style: preserve-3d;
+}
+
+/* Do an horizontal flip when you move the mouse over the flip box container */
+.flip-card:hover .flip-card-inner {
+    transform: rotateX(180deg);
+}
+
+/* Position the front and back side */
+.flip-card-front,
+.flip-card-back {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    border-radius: 8px;
+    backface-visibility: hidden;
+}
+
+/* Style the front side (fallback if image is missing) */
+.flip-card-front {
+    background-color: var(--card-front-bg-grey-color);
+    color: black;
+}
+
+/* Style the back side */
+.flip-card-back {
+    background-color: var(--black-color);
+    color: white;
+    transform: rotateX(180deg);
+}
+
+.sale_1 {
+    position: absolute;
+}
+
+.sale_2 {
+    position: absolute;
+    left: 35%;
+}
+
+/* Card END*/
