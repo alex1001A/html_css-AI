@@ -97,6 +97,7 @@ body {
     display: flex;
     align-items: center;
     padding: 0 2px;
+    transition: background-color 1s ease, justify-content 1s ease;
 }
 
 .btn__slider {
@@ -109,7 +110,7 @@ body {
 
 .is-active {
     background-color: var(--white-color);
-    justify-content: flex-end;
+    justify-content: flex-end; 
 }
 
 .slider--color {
@@ -125,8 +126,7 @@ body {
     margin-bottom: 40px;
 }
 
-.hero__title::before {
-    content: '';
+.before {
     display: inline-block;
     height: 8px;
     width: 100px;

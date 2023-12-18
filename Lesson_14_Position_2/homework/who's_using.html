@@ -36,6 +36,7 @@
     <section class="hero">
         <div class="container hero__container">
             <div class="hero__title--container">
+                <div class="before"></div>
                 <h2 class="hero__title">Who’s using</h2>
             </div>
             <div class="cards">
@@ -382,9 +383,12 @@
         const bG = document.querySelector('body')
         const btn = document.querySelector('.button')
         const btnSldr = document.querySelector('.btn__slider')
+        const beforeElement = document.querySelector('.before')
+
 
         btn.addEventListener('click', () => {
             btn.classList.toggle('is-active')
+            beforeElement.classList.toggle('before--white-color')
             bG.classList.toggle('dark-theme')
             btnSldr.classList.toggle('slider--color')
         })
