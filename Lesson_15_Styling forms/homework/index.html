@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Account</title>
+    <link rel="stylesheet" href="./style/reset.css">
+    <link rel="stylesheet" href="./style/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&family=Roboto:wght@400;500&display=swap"
+        rel="stylesheet">
+
+</head>
+
+<body>
+    <div class="wrapper">
+        <section class="account">
+            <div class="container">
+                <div class="create">
+                    <h1 class="title">Create an Account</h1>
+                    <div class="input__row">
+                        <div class="input__content">
+                            <label class="input--label" for="first-name">First Name</label>
+                            <input class="input--text" id="first-name" type="text">
+                        </div>
+                        <div class="input__content">
+                            <label class="input--label" for="first-name">Last Name</label>
+                            <input class="input--text" id="first-name" type="text">
+                        </div>
+                    </div>
+                    <div class="input__email">
+                        <label class="input--label" for="mail">E-mail</label>
+                        <input class="input--email" id="mail" type="text">
+                        <span class="input-subtext">We'll never share your email with anyone else.</span>
+                    </div>
+                    <div class="radio-gender__container">
+                        <div class="radio">
+                            <input id="male" type="radio">
+                            <label class="radio-label" for="male">
+                                <div class="radio--fake">
+                                    
+                                </div>
+                                <div class="radio-text">
+                                    Male
+                                </div>
+                            </label>
+                        </div>
+                        <div class="radio">
+                            <input id="female" type="radio">
+                            <label class="radio-label" for="female">
+                                <div class="radio--fake">
+                                    
+                                </div>
+                                <div class="radio-text">
+                                    Female
+                                </div>
+                            </label>
+                        </div>
+                    </div>
+                    <div class="input__row">
+                        <div class="input__content">
+                            <label class="input--label" for="country">Country</label>
+                            <select class="input--text" id="country">
+                                <option value="">--</option>
+                                <option value="">Ukraine</option>
+                                <option value="">Poland</option>
+                                <option value="">UK</option>
+                                <option value="">USA</option>
+                            </select>
+                        </div>
+                        <div class="input__content">
+                            <label class="input--label" for="city">City</label>
+                            <input class="input--text" id="city" type="text">
+                        </div>
+                    </div>
+                    <button class="button">
+                        Sign Up
+                    </button>
+                    <p class="text input-subtext">
+                        By clicking the 'Sign Up' button, 
+                        you confirm that you accept our <span class="blue-text">Terms of Use</span> and <span class="blue-text">Privacy Policy</span>.
+                    </p>
+                    <div class="login">
+                        <span class="login__text">Have an account?</span>
+                        <a href="" class="login__link">Log In</a>
+                    </div>
+                </div>
+                <div class="profile">
+                    <h1 class="title">Profile</h1>
+                </div>
+            </div>
+        </section>
+    </div>
+</body>
+
+</html>
