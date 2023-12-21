@@ -1,0 +1,19 @@
+.hero {
+
+    display: flex;
+
+    &__title {
+        font-size: 40px;
+        color: $color-red;
+
+    }
+
+
+    &__text {
+        color: $color-red;
+
+        &--blue {
+            color: $color-blue;
+        }
+    }
+}
