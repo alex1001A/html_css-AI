@@ -16,7 +16,7 @@
     <div class="wrapper">
         <section class="account">
             <div class="container">
-                <div class="create">
+                <form class="create">
                     <h1 class="title">Create an Account</h1>
                     <div class="input__row">
                         <div class="input__content">
@@ -24,8 +24,8 @@
                             <input class="input--text" id="first-name" type="text">
                         </div>
                         <div class="input__content">
-                            <label class="input--label" for="first-name">Last Name</label>
-                            <input class="input--text" id="first-name" type="text">
+                            <label class="input--label" for="last-name">Last Name</label>
+                            <input class="input--text" id="last-name" type="text">
                         </div>
                     </div>
                     <div class="input__email">
@@ -38,7 +38,7 @@
                             <input id="male" type="radio">
                             <label class="radio-label" for="male">
                                 <div class="radio--fake">
-                                    
+
                                 </div>
                                 <div class="radio-text">
                                     Male
@@ -49,7 +49,7 @@
                             <input id="female" type="radio">
                             <label class="radio-label" for="female">
                                 <div class="radio--fake">
-                                    
+
                                 </div>
                                 <div class="radio-text">
                                     Female
@@ -61,7 +61,7 @@
                         <div class="input__content">
                             <label class="input--label" for="country">Country</label>
                             <select class="input--text" id="country">
-                                <option value="">--</option>
+                                <option value="">Select</option>
                                 <option value="">Ukraine</option>
                                 <option value="">Poland</option>
                                 <option value="">UK</option>
@@ -77,17 +77,68 @@
                         Sign Up
                     </button>
                     <p class="text input-subtext">
-                        By clicking the 'Sign Up' button, 
-                        you confirm that you accept our <span class="blue-text">Terms of Use</span> and <span class="blue-text">Privacy Policy</span>.
+                        By clicking the 'Sign Up' button,
+                        you confirm that you accept our <a href="#" class="blue-text">Terms of Use</a> and <a href=""
+                            class="blue-text">Privacy Policy</a>.
                     </p>
                     <div class="login">
                         <span class="login__text">Have an account?</span>
                         <a href="" class="login__link">Log In</a>
                     </div>
-                </div>
-                <div class="profile">
+                </form>
+                <form class="profile">
                     <h1 class="title">Profile</h1>
-                </div>
+                    <div class="photo-block">
+                        <img class="photo-img" src="./img/photo.jpg" alt="photo" width="80px">
+                        <div class="upload__container">
+                            <input class="photo-input" type="text">
+                            <img class="photo--icon" src="./img/Photo-camera.svg" alt="" width="16px">
+                            <span class="input-subtext photo-subtext">Up to 1 MB (300x300 px)</span>
+                        </div>
+                        <button class="trash-btn">
+                            <img class="trash-icon" src="./img/Trash.svg" alt="">
+                        </button>
+                    </div>
+                    <div class="input__row">
+                        <div class="input__content">
+                            <label class="input--label" for="name">Name</label>
+                            <input class="input--text" id="name" type="text">
+                        </div>
+                        <div class="input__content">
+                            <label class="input--label" for="email_1">E-mail</label>
+                            <input class="input--text" id="email_1" type="text">
+                        </div>
+                    </div>
+                    <div class="input__row">
+                        <div class="input__content">
+                            <label class="input--label" for="country_1">Country</label>
+                            <select class="input--text" id="country_1">
+                                <option value="">Select</option>
+                                <option value="">Ukraine</option>
+                                <option value="">Poland</option>
+                                <option value="">UK</option>
+                                <option value="">USA</option>
+                            </select>
+                        </div>
+                        <div class="input__content">
+                            <label class="input--label" for="city_1">City</label>
+                            <input class="input--text" id="city_1" type="text">
+                        </div>
+                    </div>
+                    <div class="input__row">
+                        <div class="input__content">
+                            <label class="input--label" for="zip">Zip Code</label>
+                            <input class="input--text" id="zip" type="number">
+                        </div>
+                        <div class="input__content">
+                            <label class="input--label" for="phone">Phone Number</label>
+                            <input class="input--text" id="phone" type="tel">
+                        </div>
+                    </div>
+                    <button class="button update-btn">
+                        Update
+                    </button>
+                </form>
             </div>
         </section>
     </div>
