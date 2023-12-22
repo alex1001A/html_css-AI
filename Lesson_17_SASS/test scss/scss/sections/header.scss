@@ -1,0 +1,14 @@
+.header__container {
+    margin-bottom: 100px;
+    padding: 23px 0;
+
+    .logo {
+        display: flex;
+        gap: 12.5px;
+
+        &__title {
+            @include logo-font;
+            color: $logo-color;
+        }
+    }
+}
