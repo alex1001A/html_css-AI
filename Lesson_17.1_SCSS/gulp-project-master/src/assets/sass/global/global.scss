@@ -1,0 +1,18 @@
+html {
+    font-size: 1px;
+}
+
+body {
+    font: var(--text-font);
+    color: var(--Base-black);
+}
+
+.wrapper {
+    overflow: hidden;
+}
+
+.container {
+    max-width: 1120px;
+    margin: 0 auto;
+}
+

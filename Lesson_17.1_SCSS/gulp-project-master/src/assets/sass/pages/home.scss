@@ -1,0 +1,32 @@
+.hero {
+    padding: 127rem 0;
+
+    &__title {
+        max-width: 709rem;
+    }
+}
+
+.carusel {
+    display: flex;
+    gap: 32rem;
+    overflow: scroll;
+    margin-bottom: 128rem;
+
+    &::-webkit-scrollbar {
+            display: none;
+        }
+
+    &__item {
+        display: flex;
+        flex-direction: column;
+    }
+
+    &__img {
+        width: 544rem;
+        margin-bottom: 16rem;
+    }
+
+    &__title {
+        font: var(--heading-H6);
+    }
+}
