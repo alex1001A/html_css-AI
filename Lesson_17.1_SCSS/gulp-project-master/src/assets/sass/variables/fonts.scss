@@ -7,32 +7,65 @@
     
     // Font-family
 
-    --main-font-family: 'Red Hat Display', sans-serif;
-    --sub-font-family: 'Lato', sans-serif;
+    --red-hat-font-family: 'Red Hat Display', sans-serif;
+    --lato-font-family: 'Lato', sans-serif;
 
     // Text
 
-    --text-font: 400 19rem/32rem var(--sub-font-family);
-    
-    --heading-H1: 400 48rem/64rem var(--main-font-family);
-    --heading-H6: 400 16rem/26rem var(--sub-font-family);
-    --heading-H8: 400 13rem/normal var(--sub-font-family);
+    --heading-H1: 400 48rem/64rem var(--red-hat-font-family);
+    --heading-H3: 400 23rem/38.2rem var(--red-hat-font-family);
+    --heading-H4: 400 19rem/32rem var(--lato-font-family);
+    --heading-H5: 400 16rem/25.6rem var(--lato-font-family);
+    --heading-H6: 400 16rem/26.5rem var(--lato-font-family);
+    --heading-H8: 400 13rem/normal var(--lato-font-family);
+    --heading-H9: 400 12rem/20rem var(--lato-font-family);
 }
 
-// Titles
+// Titles/Text
 
 .heading-H1 {
     font: var(--heading-H1);
+    color: inherit;
 }
 
-.heading-H8 {
-    font: var(--heading-H8);
+.heading-H3 {
+    font: var(--heading-H3);
+    letter-spacing: 2.3rem;
+    color: inherit;
+}
+
+.heading-H4 {
+    font: var(--heading-H4);
+    letter-spacing: 0.95rem;
+    color: var(--Grey-700);
+}
+
+.heading-H5 {
+    font: var(--heading-H4);
+    letter-spacing: 0.8rem;
+    color: var(--Grey-700);
 }
 
 .heading-H6 {
     font: var(--heading-H6);
     letter-spacing: 1.6rem;
+    color: inherit;
 }
 
-// Text
+.heading-H8 {
+    font: var(--heading-H8);
+    letter-spacing: 3.9rem;
+    text-transform: uppercase;
+    color: inherit;
+}
+
+.heading-H9 {
+    font: var(--heading-H9);
+    letter-spacing: 1.2rem;
+    color: inherit;
+}
+
+
+
+
 

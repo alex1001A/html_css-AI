@@ -1,10 +1,16 @@
+// Hero
+
 .hero {
-    padding: 127rem 0;
+    margin-bottom: 128rem;
 
     &__title {
         max-width: 709rem;
     }
 }
+
+// Hero END
+
+// Carusel
 
 .carusel {
     display: flex;
@@ -13,8 +19,8 @@
     margin-bottom: 128rem;
 
     &::-webkit-scrollbar {
-            display: none;
-        }
+        display: none;
+    }
 
     &__item {
         display: flex;
@@ -29,4 +35,78 @@
     &__title {
         font: var(--heading-H6);
     }
+}
+
+// Carusel END
+
+// Mini-blog
+
+.mini-blog {
+    margin-bottom: 128rem;
+}
+
+.mini-blog__container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.left-side-content {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    max-width: 435rem;
+    gap: 48rem;
+}
+
+.right-side-content {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    max-width: 480rem;
+    gap: 50rem;
+}
+
+// Mini-blog END
+
+// Posts
+
+.posts__container {
+    display: flex;
+    flex-direction: column;
+    gap: 40rem;
+}
+
+.posts__heading {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-bottom: 40rem;
+
+    .view-all {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        color: var(--Grey-700);
+        gap: 8rem;
+    }
+}
+
+.posts__block {
+    display: grid;
+    grid-template-columns: repeat(3, 350rem);
+    gap: 34rem;
+    margin-bottom: 128rem;
+}
+
+.posts__subtext {
+    color: var(--Grey-700);
+    display: flex;
+    justify-content: space-between;
+}
+
+.posts__item--text {
+    font-size: 16rem;
+    margin-bottom: 0;
 }

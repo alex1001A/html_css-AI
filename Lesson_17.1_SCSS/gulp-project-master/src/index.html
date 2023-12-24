@@ -15,11 +15,34 @@
 
     <div class="wrapper">
         <header class="header">
-            <div class="container">
-                <a href="#">
-                    <img src="" alt="">
+            <div class="container header__container">
+                <a class="header__logo" href="#">
+                    <img src="@@webRoot/img/header/Logo.svg" alt="logo">
                 </a>
-                <nav class="nav"></nav>
+                <nav class="nav">
+                    <ul class="nav__list">
+                        <li>
+                            <a class="nav__link heading-H8 is-active" href="#">home</a>
+                        </li>
+                        <li>
+                            <a class="nav__link heading-H8" href="#">about</a>
+                        </li>
+                        <li>
+                            <a class="nav__link heading-H8" href="#">works</a>
+                        </li>
+                        <li>
+                            <a class="nav__link heading-H8" href="#">blog</a>
+                        </li>
+                        <li>
+                            <a class="nav__link heading-H8" href="#">contact</a>
+                        </li>
+                        <li>
+                            <a class="nav__link heading-H8" href="#">
+                                <img class="nav__icon" src="@@webRoot/img/header/search-icon.svg" alt="search icon">
+                            </a>
+                        </li>
+                    </ul>
+                </nav>
             </div>
         </header>
 
@@ -36,7 +59,7 @@
             <section class="carusel">
                 <div class="carusel__item">
                     <img class="carusel__img" src="@@webRoot/img/home/carusel/img-1.jpg" alt="img" width="300">
-                    <h5 class="carusel__title">Mixkit Inspo</h5>
+                    <h5 class="carusel__title">Mocha</h5>
                 </div>
                 <div class="carusel__item">
                     <img class="carusel__img" src="@@webRoot/img/home/carusel/img-2.jpg" alt="img" width="300">
@@ -44,17 +67,139 @@
                 </div>
                 <div class="carusel__item">
                     <img class="carusel__img" src="@@webRoot/img/home/carusel/img-3.jpg" alt="img" width="300">
-                    <h5 class="carusel__title">Mixkit Inspo</h5>
+                    <h5 class="carusel__title">Abalone</h5>
                 </div>
                 <div class="carusel__item">
                     <img class="carusel__img" src="@@webRoot/img/home/carusel/img-4.jpg" alt="img" width="300">
-                    <h5 class="carusel__title">Mixkit Inspo</h5>
+                    <h5 class="carusel__title">Dreamy</h5>
                 </div>
             </section>
+
+            <section class="mini-blog">
+                <div class="container mini-blog__container">
+                    <div class="left-side-content">
+                        <h3 class="mini-blog__title heading-H3">
+                            Full-time UI/UX designer<br>Head of Design at VeronaLabs.com
+                        </h3>
+                        <a href="">
+                            <svg class="arrow-img" xmlns="http://www.w3.org/2000/svg" width="24" height="12"
+                                viewBox="0 0 24 12" fill="none">
+                                <path
+                                    d="M23.5303 6.53033C23.8232 6.23744 23.8232 5.76257 23.5303 5.46967L18.7574 0.696701C18.4645 0.403807 17.9896 0.403807 17.6967 0.696701C17.4038 0.989594 17.4038 1.46447 17.6967 1.75736L21.9393 6L17.6967 10.2426C17.4038 10.5355 17.4038 11.0104 17.6967 11.3033C17.9896 11.5962 18.4645 11.5962 18.7574 11.3033L23.5303 6.53033ZM-6.55671e-08 6.75L23 6.75L23 5.25L6.55671e-08 5.25L-6.55671e-08 6.75Z"
+                                    fill="#7B7B7B" />
+                            </svg>
+                        </a>
+                    </div>
+                    <div class="right-side-content">
+                        <p class="text mini-blog__text heading-H4">We work with clients around the world
+                            from our headquarters in Charleston, South Carolina.
+                        </p>
+                        <p class="text mini-blog__text heading-H4">We focus on naming, branding, brand
+                            narratives, website design and development, and brand experiences.
+                        </p>
+                    </div>
+                </div>
+            </section>
+
+            <section class="posts">
+                <div class="container posts__container">
+                    <div class="posts__heading heading-H3">
+                        <h3 class="heading-H3">Latest Posts</h3>
+                        <a class="view-all heading-H6" href="">
+                            <p class="heading-H6">View All</p>
+                            <svg class="arrow-img" xmlns="http://www.w3.org/2000/svg" width="24" height="12"
+                                viewBox="0 0 24 12" fill="none">
+                                <path
+                                    d="M23.5303 6.53033C23.8232 6.23744 23.8232 5.76257 23.5303 5.46967L18.7574 0.696701C18.4645 0.403807 17.9896 0.403807 17.6967 0.696701C17.4038 0.989594 17.4038 1.46447 17.6967 1.75736L21.9393 6L17.6967 10.2426C17.4038 10.5355 17.4038 11.0104 17.6967 11.3033C17.9896 11.5962 18.4645 11.5962 18.7574 11.3033L23.5303 6.53033ZM-6.55671e-08 6.75L23 6.75L23 5.25L6.55671e-08 5.25L-6.55671e-08 6.75Z"
+                                    fill="#7B7B7B" />
+                            </svg>
+                        </a>
+                    </div>
+                    <div class="posts__block">
+                        <div class="posts__item">
+                            <img src="@@webRoot/img/home/posts/post_1.jpg" alt="">
+                            <div class="posts__subtext">
+                                <p class="heading-H9">
+                                    Interface Design
+                                </p>
+                                <p class="heading-H9">
+                                    8 June, 2020
+                                </p>
+                            </div>
+                            <h3 class="post__item--title heading-H3">UX traffic light colours
+                                <span class="hide-text">Lorem.</span>
+                            </h3>
+                            <p class="posts__item--text heading-H5">
+                                UI has to make a huge visual difference
+                                between warning, an alert and a success.
+                            </p>
+                        </div>
+                        <div class="posts__item">
+                            <img src="@@webRoot/img/home/posts/post_2.jpg" alt="">
+                            <div class="posts__subtext">
+                                <p class="heading-H9">
+                                    Technology
+                                </p>
+                                <p class="heading-H9">
+                                    6 May, 2020
+                                </p>
+                            </div>
+                            <h3 class="post__item--title heading-H3">Using UX Design to Build a Sustainable Future</h3>
+                            <p class="posts__item--text heading-H5">
+                                lore
+                                Transformation has to be driven by everybody, not just by climate groups.
+                            </p>
+                        </div>
+                        <div class="posts__item">
+                            <img src="@@webRoot/img/home/posts/post_3.jpg" alt="">
+                            <div class="posts__subtext">
+                                <p class="heading-H9">
+                                    Visual Design
+                                </p>
+                                <p class="heading-H9">
+                                    8 June, 2020
+                                </p>
+                            </div>
+                            <h3 class="post__item--title heading-H3">Creativity vs. UX</h3>
+                            <p class="posts__item--text heading-H5">
+                                Is it possible to create a delightful user experience without following best UX
+                                practices?
+                            </p>
+                        </div>
+
+                    </div>
+                </div>
+            </section>
+
         </main>
 
         <footer class="footer">
-            
+            <div class="container footer__container">
+                <div class="need-project__content">
+                    <h1 class="footer__title heading-H1">Need a project?</h1>
+                    <a class="footer__tel heading-H6">(239) 555-0108</a>
+                    <a class="heading-H6">tanya.hill@example.com</a>
+                </div>
+                <div class="nav">
+                    <nav class="footer__nav">
+                        <ul class="footer__nav--list">
+                            <li>
+                                <a class="footer__nav--link heading-H6" href="">Facebook</a>
+                            </li>
+                            <li>
+                                <a class="footer__nav--link heading-H6" href="">Instagram</a>
+                            </li>
+                            <li>
+                                <a class="footer__nav--link heading-H6" href="">Dribbble</a>
+                            </li>
+                            <li>
+                                <a class="footer__nav--link heading-H6" href="">Linkedin</a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+                <p class="copyright heading-H9">© Copyright Manifest Theme. Allrights reserved</p>
+            </div>
         </footer>
     </div>
 
