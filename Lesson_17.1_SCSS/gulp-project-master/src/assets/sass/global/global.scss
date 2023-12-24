@@ -16,3 +16,24 @@ body {
     margin: 0 auto;
 }
 
+.text {
+    color: var(--Grey-700);
+}
+
+.arrow-img {
+    transition: all 0.5s;
+}
+
+.arrow-img:hover {
+    transform: scale(1.5);
+}
+
+.hide-text {
+    opacity: 0;
+}
+
+.posts__item {
+    display: flex;
+    flex-direction: column;
+    gap: 24rem;
+}
