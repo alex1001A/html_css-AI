@@ -1,13 +1,14 @@
 .header {
     padding-top: 128rem;
     margin-bottom: 128rem;
-}
 
-.header__container {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
+    &__container {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+    }
+
 }
 
 .nav__list {
@@ -18,7 +19,7 @@
 
 
     .nav__link {
-        
+
 
         &::after {
             content: '';
@@ -36,7 +37,5 @@
             opacity: 1;
             width: 70%;
         }
-        
     }
-
 }

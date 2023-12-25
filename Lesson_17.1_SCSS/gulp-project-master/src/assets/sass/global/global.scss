@@ -12,7 +12,7 @@ body {
 }
 
 .container {
-    max-width: 1120px;
+    max-width: 1120rem;
     margin: 0 auto;
 }
 
@@ -38,3 +38,6 @@ body {
     gap: 24rem;
 }
 
+.grey {
+    color: var(--Grey-700);
+}
