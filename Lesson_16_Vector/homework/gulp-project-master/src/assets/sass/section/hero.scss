@@ -14,14 +14,33 @@
 
         .item-icon {
             margin-bottom: 30rem;
+            width: 64rem;
+            height: 64rem;
+            border-radius: 16px;
+            border: 1rem solid var(--item-border-color);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            
+            .icon-hover {
+                display: none;
+            }
         }
 
         &:hover {
-        border: 1rem solid var(--item-border-hover-color);
-        
-        .item-icon {
-            background-image: url('@@webRoot/img/hero/icon-3.1.svg');
-        }
+            border: 1rem solid var(--item-border-hover-color);
+
+            .icon-before-hover {
+                display: none;
+            }
+
+            .icon-hover {
+                display: block;
+            }
+
+            .item__link {
+                color: var(--Base-blue);
+            }
         }
     }
 }

@@ -1,0 +1,32 @@
+.footer {
+    padding: 40rem 135rem;
+    background-color: var(--Base-dark-blue);
+}
+
+.footer__logo-block {
+    display: flex;
+    align-items: center;
+    gap: 12.6rem;
+    margin-bottom: 40rem;
+}
+
+.footer__social-block {
+    display: flex;
+    flex-direction: row;
+    gap: 10rem;
+}
+
+.social-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 38rem;
+    height: 38rem;
+    border-radius: 5rem;
+    background: var(--White-footer-icons);
+
+    &:hover .social-icon path {
+        fill: var(--Base-green);
+    }
+}
+
