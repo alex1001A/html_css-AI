@@ -1,42 +1,58 @@
-@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Red+Hat+Display:wght@400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:opsz,wght@6..12,600&family=Roboto:wght@400;700&display=swap');
 
-// font-family: 'Lato', sans-serif; 400 / 700
-// font-family: 'Red Hat Display', sans-serif; 400 / 500
-
+// font-family: 'Nunito Sans', sans-serif; 600
+// font-family: 'Roboto', sans-serif; 400/700
 
 :root {
 
     // Font Family
-    --main-font: 'Red Hat Display', sans-serif;
-    --sub-font: 'Lato', sans-serif;
+    --roboto-ff: 'Roboto', sans-serif;
+    --nunito-ff: 'Nunito Sans', sans-serif;
 
 
     // Text fonts
-    --text-font: 400 19rem/32rem var(--sub-font);
-
-    --Heading-H1: 400 48rem/64rem var(--main-font);
-    --Heading-H6: 400 16rem/26rem var(--sub-font);
-    --Heading-H8: 400 13rem/normal var(--sub-font);
-
+    
+    --suptitle-font: 400 16rem/normal var(--roboto-ff);
+    --title-font: 600 40rem/normal var(--nunito-ff);
+    --item-title-font: 400 24rem/normal var(--roboto-ff);
+    --item-text-font: 400 16rem/normal var(--roboto-ff);
+    --learn-more-font: 700 16rem/normal var(--roboto-ff);
 }
 
 
 // Title
-.Heading-H1 {
-    font: var(--Heading-H1);
-}
+    .suptitle {
+        font: var(--suptitle-font);
+        line-height: 21rem;
+        text-transform: uppercase;
+        color: var(--suptitle-color);
+        margin-bottom: 15rem;
+    }
 
-.Heading-H8 {
-    font: var(--Heading-H8);
-}
+    .title {
+        font: var(--title-font);
+        line-height: 52rem;
+        letter-spacing: 0.2rem;
+        margin-bottom: 40rem;
+    }
 
-.Heading-H6 {
-    font: var(--Heading-H6);
-}
+    .item-title {
+        font: var(--item-title-font);
+        line-height: 21.3rem;
+        letter-spacing: 0.2rem;
+        margin-bottom: 15rem;
+    }
 
+    .item-text {
+        font: var(--item-text-font);
+        line-height: 28rem;
+        margin-bottom: 30rem;
+        max-width: 275rem;
+    }
+
+    .learn-more {
+        font: var(--learn-more-font);
+        color: var(--Base-green);
+    }
 
 // Text
-
-.text-font {
-    font: var(--text-font);
-}

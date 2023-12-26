@@ -1,0 +1,11 @@
+.header {
+    margin-bottom: 100rem;
+    padding: 23rem 0;
+
+    &__container {
+        display: flex;
+        flex-direction: row;
+        gap: 12.6rem;
+    }
+
+}
