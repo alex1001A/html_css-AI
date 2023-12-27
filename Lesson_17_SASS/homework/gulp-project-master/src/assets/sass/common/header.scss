@@ -1,0 +1,33 @@
+.header {
+    text-align: center;
+    margin-bottom: 40rem;
+}
+
+.header__icon {
+    position: relative;
+    width: 20rem;
+    height: 20rem;
+    margin: 0 auto;
+
+    &::before {
+        position: absolute;
+        content: '';
+        width: 210rem;
+        height: 1rem;
+        display: block;
+        background: var(--main-gold-color);
+        right: 25rem;
+        top: 50%;
+    }
+
+    &::after {
+        position: absolute;
+        content: '';
+        width: 210rem;
+        height: 1rem;
+        display: block;
+        background: var(--main-gold-color);
+        left: 25rem;
+        top: 50%;
+    }
+}

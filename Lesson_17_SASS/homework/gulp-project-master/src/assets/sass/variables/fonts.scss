@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@700&family=Raleway:wght@400;500&family=Roboto:wght@900&display=swap');
+
+// font-family: 'Raleway', sans-serif; 500/400
+// font-family: 'Roboto', sans-serif; 900
+// font-family: 'Open Sans', sans-serif; 700
+
+:root {
+
+    // Font Family
+    --Raleway-font: 'Raleway', sans-serif;
+    --Roboto-font: 'Roboto', sans-serif;
+    --Open-Sans-font: 'Open Sans', sans-serif;
+
+
+    // Text fonts
+    --text-font: 500 14rem/24rem var(--Raleway-font);
+    --title-font: 900 60rem/66rem var(--Roboto-font);
+    --suptitle-font: 500 18rem/24rem var(--Roboto-font);
+    --name-font: 900 36rem/normal var(--Roboto-font);
+    --front-end-font: 400 24rem/36rem var(--Raleway-font);
+    --view-font: 700 14rem/14rem var(--Open-Sans-font);
+
+}
+
+
+// Title
+.suptitle {
+    font: var(--suptitle-font);
+    color: var(--suptitle-color);
+    text-transform: uppercase;
+    margin-bottom: 15rem;
+}
+
+.title {
+    font: var(--title-font);
+    color: var(--main-gold-color);
+    text-transform: uppercase;
+    margin-bottom: 40rem;
+}
+
+.name {
+    font: var(--name-font);
+    color: var(--name-color);
+    text-transform: capitalize;
+}
+
+.position {
+    font: var(--front-end-font);
+    color: var(--name-color);
+    text-transform: capitalize;
+    margin-bottom: 30rem;
+}
+
+// Text
+
+.text {
+    font: var(--text-font);
+    color: var(--text-color);
+    max-width: 430rem;
+    text-align: center;
+    margin-bottom: 20rem;
+}
+
+.button__text {
+    font: var(--view-font);
+    color: var(--name-color);
+    text-transform: uppercase;
+}
