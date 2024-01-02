@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Red+Hat+Display:wght@400;500;600&display=swap');
+
+// font-family: 'Lato', sans-serif; 400/700
+// font-family: 'Red Hat Display', sans-serif; 400/500/600
+
+:root {
+
+    // Font Family
+    --Lato-font: 'Lato', sans-serif;
+    --Red-Hat-Display-font: 'Red Hat Display', sans-serif;
+
+
+    // Text fonts
+    --Header-font: 400 14rem/normal var(--Lato-font);
+    --H1-font: 600 48rem/64rem var(--Red-Hat-Display-font);
+    --Tag-font: 400 16rem/26.6rem var(--Lato-font);
+    --Item-title-font: 500 23rem/38.2rem var(--Red-Hat-Display-font);
+
+
+}
+
+// Header
+.header {
+    font: var(--Header-font);
+    color: var(--Base-black);
+    text-transform: uppercase;
+    letter-spacing: 4.2rem;
+}
+
+// Title
+.H1 {
+    font: var(--H1-font);
+    color: var(--Base-black);
+    letter-spacing: 2.4rem;
+}
+
+.title {
+    font: var(--H1-font);
+    font-weight: 400;
+    color: var(--Base-black);
+    margin-bottom: 50rem;
+    letter-spacing: 2.4rem;
+}
+
+// Text
+.tag {
+    font: var(--Tag-font);
+    color: var(--Tag-grey);
+    letter-spacing: 1.6rem;
+}
+
+.item__title {
+    font: var(--Item-title-font);
+    color: var(--Base-black);
+}
+
+.text {
+    font: var(--Tag-font);
+    color: var(--Text-grey);
+    max-width: 450rem;
+    letter-spacing: 0.8rem;
+}
