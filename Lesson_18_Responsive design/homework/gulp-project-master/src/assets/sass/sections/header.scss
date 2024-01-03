@@ -1,0 +1,47 @@
+.header {
+    padding-top: 44rem;
+    padding-bottom: 44rem;
+
+
+    &__container {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+}
+
+.nav {
+    display: flex;
+    gap: 84rem;
+}
+
+.nav__list {
+    display: flex;
+    flex-direction: row;
+    gap: 42rem;
+    align-items: center;
+
+
+    .nav__link {
+
+
+        &::after {
+            content: '';
+            display: block;
+            opacity: 0;
+            width: 0%;
+            height: 1rem;
+            background-color: var(--Base-black);
+            margin: 0 auto;
+            margin-top: 4rem;
+            transition: all 0.5s;
+        }
+
+        &:hover::after {
+            opacity: 1;
+            width: 70%;
+        }
+    }
+}

@@ -1,0 +1,17 @@
+.pre-footer__container {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 90rem;
+}
+
+.left-side__block {
+    max-width: 470rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.right-side__block {
+    max-width: 470rem;
+    display: flex;
+    flex-direction: column;
+}

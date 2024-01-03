@@ -15,10 +15,11 @@
     --H1-font: 600 48rem/64rem var(--Red-Hat-Display-font);
     --Tag-font: 400 16rem/26.6rem var(--Lato-font);
     --Item-title-font: 500 23rem/38.2rem var(--Red-Hat-Display-font);
-
-
+    --View-all-font: 400 16rem/26.6rem var(--Lato-font);
+    --Button-font: 700 16rem/26.6rem var(--Lato-font);
+    --Footer-text-font: 700 16rem/26.6rem var(--Lato-font);
+    
 }
-
 // Header
 .header {
     font: var(--Header-font);
@@ -39,8 +40,14 @@
     font: var(--H1-font);
     font-weight: 400;
     color: var(--Base-black);
-    margin-bottom: 50rem;
     letter-spacing: 2.4rem;
+}
+
+.section-title {
+    font: var(--Item-title-font);
+    color: var(--Base-black);
+    font-size: 28rem;
+    letter-spacing: 2.8rem;
 }
 
 // Text
@@ -53,11 +60,24 @@
 .item-title {
     font: var(--Item-title-font);
     color: var(--Base-black);
+    letter-spacing: 2.3rem;
 }
 
 .text {
     font: var(--Tag-font);
     color: var(--Text-grey);
-    max-width: 450rem;
     letter-spacing: 0.8rem;
+}
+
+.view-all {
+    font: var(--View-all-font);
+    letter-spacing: 1.6px;
+    color: var(--Tag-grey);
+}
+
+// Footer text
+.footer__text {
+    font: var(--Footer-text-font);
+    color: var(--Base-black);
+    letter-spacing: 1.6rem;
 }

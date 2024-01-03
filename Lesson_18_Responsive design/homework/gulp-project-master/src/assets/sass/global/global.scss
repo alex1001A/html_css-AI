@@ -7,6 +7,10 @@ body {
     color: var(--name-color);
 }
 
+.wrapper {
+    overflow: hidden;
+}
+
 .container {
     max-width: 1170rem;
     margin: 0 auto;
