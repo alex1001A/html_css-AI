@@ -1,5 +1,4 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Red+Hat+Display:wght@400;500;600&display=swap');
-
 // font-family: 'Lato', sans-serif; 400/700
 // font-family: 'Red Hat Display', sans-serif; 400/500/600
 
@@ -9,75 +8,46 @@
     --Lato-font: 'Lato', sans-serif;
     --Red-Hat-Display-font: 'Red Hat Display', sans-serif;
 
-
     // Text fonts
-    --Header-font: 400 14rem/normal var(--Lato-font);
-    --H1-font: 600 48rem/64rem var(--Red-Hat-Display-font);
-    --Tag-font: 400 16rem/26.6rem var(--Lato-font);
-    --Item-title-font: 500 23rem/38.2rem var(--Red-Hat-Display-font);
-    --View-all-font: 400 16rem/26.6rem var(--Lato-font);
-    --Button-font: 700 16rem/26.6rem var(--Lato-font);
-    --Footer-text-font: 700 16rem/26.6rem var(--Lato-font);
-    
-}
-// Header
-.header {
-    font: var(--Header-font);
-    color: var(--Base-black);
-    text-transform: uppercase;
-    letter-spacing: 4.2rem;
+    --H1-Blog: 600 rem(48)/rem(64) var(--Red-Hat-Display-font);
+    --H2-Need: 400 rem(32)/normal var(--Red-Hat-Display-font);
+    --H3-Manifest: 600 rem(40)/rem(50) var(--Red-Hat-Display-font);  
+    --H4-section-title: 600 rem(28)/rem(36) var(--Red-Hat-Display-font);
+    --H5-column-item-title: 500 rem(22)/rem(36.5) var(--Red-Hat-Display-font);
+    --H6-date-text: 400 rem(16)/rem(26.6) var(--Lato-font);
+
 }
 
-// Title
-.H1 {
-    font: var(--H1-font);
-    color: var(--Base-black);
-    letter-spacing: 2.4rem;
-    max-width: 770rem;
+// Hero section
+.H3-Manifest {
+    font: var(--H3-Manifest);
+    letter-spacing: rem(1.5);
+    // font-family: var(--Red-Hat-Display-font);
+    // font-weight: 600;
 }
 
-.title {
-    font: var(--H1-font);
-    font-weight: 400;
-    color: var(--Base-black);
-    letter-spacing: 2.4rem;
+// Blog section
+.H1-Blog {
+    font: var(--H1-Blog);
+    letter-spacing: rem(2.4);
 }
 
-.section-title {
-    font: var(--Item-title-font);
-    color: var(--Base-black);
-    font-size: 28rem;
-    letter-spacing: 2.8rem;
+.H5-column-item-title {
+    font: var(--H5-column-item-title);
+    letter-spacing: rem(2.2);
 }
 
-// Text
-.tag {
-    font: var(--Tag-font);
-    color: var(--Tag-grey);
-    letter-spacing: 1.6rem;
+.H6-date-text {
+    font: var(--H6-date-text);
+    letter-spacing: rem(1.6);
 }
 
-.item-title {
-    font: var(--Item-title-font);
-    color: var(--Base-black);
-    letter-spacing: 2.3rem;
+// Latest-Posts section
+.H4-section-title {
+    font: var(--H4-section-title);
+    letter-spacing: rem(1.4);
 }
 
-.text {
-    font: var(--Tag-font);
-    color: var(--Text-grey);
-    letter-spacing: 0.8rem;
-}
+// The-Most-Popular
 
-.view-all {
-    font: var(--View-all-font);
-    letter-spacing: 1.6px;
-    color: var(--Tag-grey);
-}
 
-// Footer text
-.footer__text {
-    font: var(--Footer-text-font);
-    color: var(--Base-black);
-    letter-spacing: 1.6rem;
-}

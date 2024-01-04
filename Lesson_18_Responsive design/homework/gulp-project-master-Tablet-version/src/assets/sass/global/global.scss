@@ -1,17 +1,9 @@
-html {
-    font-size: 1px;
-}
-
-body {
-    font-size: 16rem;
-    color: var(--name-color);
-}
-
 .wrapper {
     overflow: hidden;
 }
 
 .container {
-    max-width: 1170rem;
+    max-width: rem(320);
+    padding: 0 rem(10);
     margin: 0 auto;
 }
