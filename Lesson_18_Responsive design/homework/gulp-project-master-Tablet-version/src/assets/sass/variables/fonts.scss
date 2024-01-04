@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Red+Hat+Display:wght@400;500;600&display=swap');
+
+// font-family: 'Lato', sans-serif; 400/700
+// font-family: 'Red Hat Display', sans-serif; 400/500/600
+
+:root {
+
+    // Font Family
+    --Lato-font: 'Lato', sans-serif;
+    --Red-Hat-Display-font: 'Red Hat Display', sans-serif;
+
+
+    // Text fonts
+    --Header-font: 400 14rem/normal var(--Lato-font);
+    --H1-font: 600 48rem/64rem var(--Red-Hat-Display-font);
+    --Tag-font: 400 16rem/26.6rem var(--Lato-font);
+    --Item-title-font: 500 23rem/38.2rem var(--Red-Hat-Display-font);
+    --View-all-font: 400 16rem/26.6rem var(--Lato-font);
+    --Button-font: 700 16rem/26.6rem var(--Lato-font);
+    --Footer-text-font: 700 16rem/26.6rem var(--Lato-font);
+    
+}
+// Header
+.header {
+    font: var(--Header-font);
+    color: var(--Base-black);
+    text-transform: uppercase;
+    letter-spacing: 4.2rem;
+}
+
+// Title
+.H1 {
+    font: var(--H1-font);
+    color: var(--Base-black);
+    letter-spacing: 2.4rem;
+    max-width: 770rem;
+}
+
+.title {
+    font: var(--H1-font);
+    font-weight: 400;
+    color: var(--Base-black);
+    letter-spacing: 2.4rem;
+}
+
+.section-title {
+    font: var(--Item-title-font);
+    color: var(--Base-black);
+    font-size: 28rem;
+    letter-spacing: 2.8rem;
+}
+
+// Text
+.tag {
+    font: var(--Tag-font);
+    color: var(--Tag-grey);
+    letter-spacing: 1.6rem;
+}
+
+.item-title {
+    font: var(--Item-title-font);
+    color: var(--Base-black);
+    letter-spacing: 2.3rem;
+}
+
+.text {
+    font: var(--Tag-font);
+    color: var(--Text-grey);
+    letter-spacing: 0.8rem;
+}
+
+.view-all {
+    font: var(--View-all-font);
+    letter-spacing: 1.6px;
+    color: var(--Tag-grey);
+}
+
+// Footer text
+.footer__text {
+    font: var(--Footer-text-font);
+    color: var(--Base-black);
+    letter-spacing: 1.6rem;
+}

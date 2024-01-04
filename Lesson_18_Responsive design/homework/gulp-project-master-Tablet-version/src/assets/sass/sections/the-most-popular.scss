@@ -1,0 +1,19 @@
+.the-most-popular__container {
+    display: flex;
+    flex-direction: column;
+    gap: 50rem;
+}
+
+.the-most-popular__row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30rem;
+
+    &--item {
+        max-width: 570rem;
+        display: flex;
+        flex-direction: column;
+        gap: 20rem;
+    }
+}
