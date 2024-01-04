@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Red+Hat+Display:wght@400;500;600&display=swap');
+
+// font-family: 'Lato', sans-serif; 400/700
+// font-family: 'Red Hat Display', sans-serif; 400/500/600
+
+:root {
+
+    // Font Family
+    --Lato-font: 'Lato', sans-serif;
+    --Red-Hat-Display-font: 'Red Hat Display', sans-serif;
+
+
+    // Text fonts
+    --H1-Blog: 600 3rem/4rem var(--Red-Hat-Display-font);
+    --H2-Need: 400 2rem/normal var(--Red-Hat-Display-font);
+    --H3-Manifest: 600 2.5rem/3.125rem var(--Red-Hat-Display-font);
+    --H4-section-title: 600 1.75rem/2.25rem var(--Red-Hat-Display-font);
+    --H5-column-item-title: 500 1.375rem/2.2813rem var(--Red-Hat-Display-font);
+    --H6-date-text: 400 1rem/1.6625rem var(--Lato-font);
+    --Header-font: 400 .875rem/normal var(--Lato-font);
+    --Footer-phone: 400 1.125rem/1.875rem var(--Lato-font);
+    --Footer-bottom: 400 1rem/1.6625rem var(--Lato-font);
+
+}
+
+//  Header
+.nav-font {
+    font: var(--Header-font);
+    letter-spacing: .2625rem;
+    text-transform: uppercase;
+}
+
+// Hero section
+.H3-Manifest {
+    font: var(--H3-Manifest);
+    letter-spacing: .0938rem;
+}
+
+// Blog section
+.H1-Blog {
+    font: var(--H1-Blog);
+    letter-spacing: .15rem;
+}
+
+.H5-column-item-title {
+    font: var(--H5-column-item-title);
+    letter-spacing: .1375rem;
+}
+
+.H6-date-text {
+    font: var(--H6-date-text);
+    letter-spacing: .1rem;
+}
+
+// Latest-Posts section
+.H4-section-title {
+    font: var(--H4-section-title);
+    letter-spacing: .0875rem;
+}
+
+// The-Most-Popular
+
+
+//  Footer
+.H2-Need {
+    font: var(--H2-Need);
+    letter-spacing: .1rem;
+    margin-bottom: 1.25rem;
+}
+
+.Footer-phone {
+    font: var(--Footer-phone);
+    letter-spacing: .1125rem;
+    margin-bottom: .9375rem;
+}
+
+.Footer-bottom {
+    font: var(--Footer-bottom);
+    letter-spacing: 1.6px;
+}
+
+

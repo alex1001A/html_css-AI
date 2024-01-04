@@ -1,0 +1,22 @@
+// Media
+@import './variables/media.scss';
+
+// Variables
+@import './variables/color.scss';
+@import './variables/fonts.scss';
+
+// Global
+@import './global/reset.scss';
+@import './global/global.scss';
+
+// Common
+@import './common/header.scss';
+@import './common/footer.scss';
+@import './common/button.scss';
+
+// Sections
+@import './sections/hero.scss';
+@import './sections/bs.scss';
+@import './sections/lp.scss';
+@import './sections/tmp.scss';
+@import './sections/pre-footer.scss';

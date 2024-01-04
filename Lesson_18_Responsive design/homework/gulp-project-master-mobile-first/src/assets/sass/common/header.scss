@@ -1,0 +1,108 @@
+.header {
+    padding: 1.25rem 0;
+}
+
+.header__container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    @media (min-width: $media-xxl) {
+        
+    }
+}
+
+.logo {
+    @media (min-width: $media-xxl) {
+        margin-right: 26.75rem;
+    }
+}
+
+.nav {
+    display: none;
+
+    @media (min-width: $media-xxl) {
+        display: block;
+        margin-right: 5.25rem;
+    }
+
+    &__list {
+        @media (min-width: $media-xxl) {
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            gap: 2.625rem;
+        }
+
+        &--link {
+            position: relative;
+        }
+
+        &--link::after {
+            content: '';
+            display: block;
+            width: 0;
+            height: .0625rem;
+            background-color: var(--Base-black);
+            position: absolute;
+            left: 50%;
+            bottom: -0.3125rem;
+            transform: translate(-50%, -50%);
+            transition: all 0.5s;
+        }
+
+        &--link:hover::after{
+            width: 70%;
+        }
+    }
+
+}
+
+.search__block {
+    display: flex;
+    align-items: center;
+    gap: 1.25rem;
+
+    @media (min-width: $media-md) {
+        gap: 2.5rem;
+    }
+
+    &--icon {
+        width: 1.25rem;
+        height: 1.25rem;
+
+        @media (min-width: $media-xxl) {
+            width: 1.0625rem;
+            height: 1.0625rem;
+        }
+    }
+
+    .burger {
+        position: relative;
+        width: 2.125rem;
+        height: .125rem;
+        background-color: var(--Base-black);
+
+        &::before {
+            content: '';
+            display: block;
+            width: 2.125rem;
+            height: .125rem;
+            background-color: var(--Base-black);
+            position: absolute;
+            left: 0;
+            top: -0.5rem;
+        }
+
+        &::after {
+            content: '';
+            display: block;
+            width: 2.125rem;
+            height: .125rem;
+            background-color: var(--Base-black);
+            position: absolute;
+            left: 0;
+            top: .5rem;
+        }
+    }
+}

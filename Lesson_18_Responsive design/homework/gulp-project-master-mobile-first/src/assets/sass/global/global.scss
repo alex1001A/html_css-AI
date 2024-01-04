@@ -1,0 +1,19 @@
+.wrapper {
+    overflow: hidden;
+}
+
+.container {
+    max-width: 320px;
+    padding: 0 10px;
+    margin: 0 auto;
+
+    @media (min-width: $media-md) {
+        max-width: 48rem;
+        padding: 0 2.125rem;
+    }
+
+    @media (min-width: $media-xxl) {
+        max-width: 90rem;
+        padding: 0 8.4375rem;
+    }
+}
