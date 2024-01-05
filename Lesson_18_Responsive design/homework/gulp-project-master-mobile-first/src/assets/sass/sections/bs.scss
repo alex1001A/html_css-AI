@@ -1,18 +1,40 @@
 .bs__container {
     display: flex;
     flex-direction: column;
-    gap: 3.125rem   ;
+    align-items: flex-start;
+    gap: 3.125rem;
 }
 
 .main-title {
-    text-align: center;
+    align-self: center;
     margin-bottom: 3.125rem;
+
+    @media (min-width: $media-md) {
+        align-self: flex-start;
+    }
 }
 
 .bs-row {
     display: flex;
     flex-direction: column;
     gap: 1.875rem;
+    
+    &--first {
+        @media (min-width: $media-md) {
+            display: flex;
+            flex-direction: row-reverse;
+            gap: 1.25rem;
+        }
+    }
+
+    &--second {
+        @media (min-width: $media-md) {
+            display: flex;
+            flex-direction: row;
+            gap: 1.25rem;
+        }
+    }
+
 }
 
 .bs-row__item {
@@ -20,7 +42,30 @@
         margin-bottom: 1.875rem;
     }
 
+    &--title {
+        margin-bottom: .9375rem;
+    }
+
     &--date {
         margin-bottom: 40px;
+    }
+
+    &--text {
+        overflow: hidden;
+    }
+
+    &--img {
+        max-width: 18.75rem;
+        max-height: 15.625rem;
+
+        @media (min-width: $media-md) {
+            max-width: 21.25rem;
+            max-height: 17.5rem;
+        }
+
+        @media (min-width: $media-xxl) {
+            max-width: 35.625rem;
+            max-height: 29.375rem;
+        }
     }
 }

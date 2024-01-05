@@ -20,4 +20,14 @@
 
 section {
     margin-bottom: 4.375rem;
+
+    @media (min-width: $media-xxl) {
+        margin-bottom: 5.625rem;
+    }
+}
+
+.hide-text {
+    @media (min-width: $media-md) {
+        display: none;
+    }
 }
