@@ -10,6 +10,13 @@
         background-size: cover;
         background-repeat: no-repeat;
     }
+
+    @media (min-width: $media-xxl) {
+        padding: 6.25rem 0 23.75rem 0;
+        background-image: url(../../img/hero/bg-image-desktop.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
 }
 
 .hero__title {
@@ -18,5 +25,11 @@
         max-width: 33.125rem;
         font-size: 2.25rem;
         letter-spacing: .1125rem;
+    }
+
+    @media (min-width: $media-xxl) {
+        max-width: 48.125rem;
+        font-size: 3rem;
+        letter-spacing: .15rem;
     }
 }

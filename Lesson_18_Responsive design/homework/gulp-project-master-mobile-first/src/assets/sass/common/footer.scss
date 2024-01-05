@@ -1,5 +1,9 @@
 .footer {
     padding: 3.125rem 0;
+
+    @media (min-width: $media-xxl) {
+        padding: 4.375rem 0;
+    }
 }
 
 .footer__container {
@@ -7,9 +11,18 @@
     display: flex;
     flex-direction: column;
     gap: 2.5rem;
+
+    @media (min-width: $media-xxl) {
+        flex-direction: row;
+        justify-content: space-between;
+        position: relative;
+        align-items: center;
+    }
 }
 
-.footer-column__content {}
+.footer-column__content {
+
+}
 
 
 .footer__email {
@@ -20,6 +33,10 @@
     display: flex;
     margin: 0 auto;
     gap: 1.4375rem;
+
+    @media (min-width: $media-xxl) {
+        margin: 0;
+    }
 }
 
 .social-wrapper {
@@ -32,4 +49,15 @@
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+}
+
+.Footer-bottom {
+
+    @media (min-width: $media-xxl) {
+        position: absolute;
+        bottom: -2.5rem;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+    
 }

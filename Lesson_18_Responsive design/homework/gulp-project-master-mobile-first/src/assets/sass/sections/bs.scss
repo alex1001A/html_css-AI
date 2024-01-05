@@ -25,19 +25,46 @@
             flex-direction: row-reverse;
             gap: 1.25rem;
         }
+
+        @media (min-width: $media-xxl) {
+            display: flex;
+            flex-direction: row-reverse;
+            gap: 1.875rem;
+        }
     }
 
     &--second {
+
+
         @media (min-width: $media-md) {
             display: flex;
             flex-direction: row;
             gap: 1.25rem;
+        }
+
+        @media (min-width: $media-xxl) {
+            display: flex;
+            flex-direction: row;
+            gap: 1.875rem;
+            align-self: flex-end;
         }
     }
 
 }
 
 .bs-row__item {
+    @media (min-width: $media-xxl) {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    &--content {
+        @media (min-width: $media-xxl) {
+            max-width: 28.125rem;
+        }
+    }
+
     &--suptitle {
         margin-bottom: 1.875rem;
     }
