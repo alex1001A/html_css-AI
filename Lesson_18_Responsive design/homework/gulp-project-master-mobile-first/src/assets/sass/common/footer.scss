@@ -2,3 +2,34 @@
     padding: 3.125rem 0;
 }
 
+.footer__container {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 2.5rem;
+}
+
+.footer-column__content {}
+
+
+.footer__email {
+    margin-bottom: 0;
+}
+
+.footer-row__content {
+    display: flex;
+    margin: 0 auto;
+    gap: 1.4375rem;
+}
+
+.social-wrapper {
+    border: .0625rem solid var(--Grey-700);
+    width: 3.125rem;
+    height: 3.125rem;
+}
+
+.social-icon {
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}

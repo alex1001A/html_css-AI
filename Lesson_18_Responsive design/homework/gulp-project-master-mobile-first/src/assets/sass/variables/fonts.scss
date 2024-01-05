@@ -13,13 +13,15 @@
     // Text fonts
     --H1-Blog: 600 3rem/4rem var(--Red-Hat-Display-font);
     --H2-Need: 400 2rem/normal var(--Red-Hat-Display-font);
-    --H3-Manifest: 600 2.5rem/3.125rem var(--Red-Hat-Display-font);
+    --H3-Manifest: 600 1.875rem/3.125rem var(--Red-Hat-Display-font);
     --H4-section-title: 600 1.75rem/2.25rem var(--Red-Hat-Display-font);
-    --H5-column-item-title: 500 1.375rem/2.2813rem var(--Red-Hat-Display-font);
+    --H5-item-title: 500 1.375rem/2.2813rem var(--Red-Hat-Display-font);
     --H6-date-text: 400 1rem/1.6625rem var(--Lato-font);
     --Header-font: 400 .875rem/normal var(--Lato-font);
     --Footer-phone: 400 1.125rem/1.875rem var(--Lato-font);
     --Footer-bottom: 400 1rem/1.6625rem var(--Lato-font);
+
+    --Button-font: 700 1rem/1.6625rem var(--Lato-font);
 
 }
 
@@ -42,14 +44,17 @@
     letter-spacing: .15rem;
 }
 
-.H5-column-item-title {
-    font: var(--H5-column-item-title);
+.H5-item-title {
+    font: var(--H5-item-title);
     letter-spacing: .1375rem;
+    margin-bottom: .625rem;
+    color: var(--Base-black);
 }
 
 .H6-date-text {
     font: var(--H6-date-text);
     letter-spacing: .1rem;
+    color: var(--Grey-500);
 }
 
 // Latest-Posts section
@@ -59,7 +64,11 @@
 }
 
 // The-Most-Popular
-
+.Button-font {
+    font: var(--Button-font);
+    color: var(--White-color);
+    letter-spacing: .1rem;
+}
 
 //  Footer
 .H2-Need {
