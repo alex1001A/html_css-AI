@@ -10,6 +10,11 @@
     align-self: flex-start;
     gap: .625rem;
     margin-bottom: 1.875rem;
+
+    @media (min-width: $media-md) {
+        flex-direction: row;
+        justify-content: space-between;
+    }
 }
 
 .view-all {
@@ -32,6 +37,7 @@
     justify-content: space-between;
     margin-bottom: 1.5625rem;
 }
+
 .content--title {
     margin-bottom: 1.25rem;
 }
