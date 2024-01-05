@@ -31,3 +31,11 @@ section {
         display: none;
     }
 }
+
+.view-all {
+    transition: 0.5s all;
+}
+
+.view-all:hover {
+    transform: scale(1.2);
+}

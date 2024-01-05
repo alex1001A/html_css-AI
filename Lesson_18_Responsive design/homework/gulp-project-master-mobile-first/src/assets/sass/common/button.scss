@@ -2,7 +2,15 @@
     padding: .625rem 2.8125rem;
     background-color: var(--Grey-700);
     color: var(--White-color);
-    // left: 50%;
-    // transform: translateX(-50%);
-    // position: absolute;
+    margin: 0 auto;
+    max-width: 11.5625rem;
+    cursor: pointer;
+    transition: 0.5s background-color, border;
+
+    &:hover {
+        padding: 9px 45px;
+        background-color: var(--White-color);
+        border: .0625rem solid var(--Grey-700);
+        color: var(--Grey-700);
+    }
 }

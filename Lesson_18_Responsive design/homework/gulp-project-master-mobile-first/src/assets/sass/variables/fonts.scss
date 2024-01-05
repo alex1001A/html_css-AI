@@ -11,7 +11,7 @@
 
 
     // Text fonts
-    --H1-Blog: 600 3rem/4rem var(--Red-Hat-Display-font);
+    --H1-Blog: 400 3rem/4rem var(--Red-Hat-Display-font);
     --H2-Need: 400 2rem/normal var(--Red-Hat-Display-font);
     --H3-Manifest: 600 1.875rem/3.125rem var(--Red-Hat-Display-font);
     --H4-section-title: 600 1.75rem/2.25rem var(--Red-Hat-Display-font);
@@ -71,7 +71,7 @@
 }
 
 //  Footer
-.H2-Need {
+.H2-Need, .Footer-title {
     font: var(--H2-Need);
     letter-spacing: .1rem;
     margin-bottom: 1.25rem;
