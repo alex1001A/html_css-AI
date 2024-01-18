@@ -1,0 +1,43 @@
+html {
+    font-size: 1px;
+}
+
+body {
+    font: var(--text-font);
+    color: var(--Base-black);
+}
+
+.wrapper {
+    overflow: hidden;
+}
+
+.container {
+    max-width: 1120rem;
+    margin: 0 auto;
+}
+
+.text {
+    color: var(--Grey-700);
+}
+
+.arrow-img {
+    transition: all 0.5s;
+}
+
+.arrow-img:hover {
+    transform: scale(1.5);
+}
+
+.hide-text {
+    opacity: 0;
+}
+
+.posts__item {
+    display: flex;
+    flex-direction: column;
+    gap: 24rem;
+}
+
+.grey {
+    color: var(--Grey-700);
+}
